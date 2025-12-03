@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Windows 95 CMD</title>
+    <link rel="stylesheet" href="styleIntro.css">
+</head>
+
+<body>
+    <div class="escritorio">
+        <div class="escritorio__accesoDirecto" onclick="window.location.href='PestañaIntro.html'">
+            <img src="imagenesIntro/pngwing.com.png" alt="Command Prompt application icon for desktop access">
+            <p>CMD</p>
+        </div>
+
+        <div class="escritorio__accesoDirecto-exp" onclick="window.location.href='ExploradorIntro.html'">
+            <img src="https://win98icons.alexmeub.com/icons/png/directory_open_cool-0.png"
+                alt="Command Prompt application icon for desktop access">
+            <p>Explorador<br>de Archivos</p>
+        </div>
+    </div>
+
+    <!-- Original Text CMD Window -->
+    <div class="VentanaPrincipal" id="ventana">
+        <div class="VentanaPrincipal__header" id="header">
+            <div class="VentanaPrincipal__header-title">
+                <img src="https://win98icons.alexmeub.com/icons/png/ms_dos-1.png" class="VentanaPrincipal__header-icon" alt="">
+                <h2>CMD</h2>
+            </div>
+            <div class="VentanaPrincipal__boton-cerrar" onclick="this.parentElement.parentElement.style.display='none'">
+                <p>×</p>
+            </div>
+        </div>
+        <div class="VentanaPrincipal__Contenido">
+            <div class="VentanaPrincipal__Contenido-CMD">
+                Microsoft(R) Windows 95 <br>
+                (C)Copyright Microsoft Corp 1994-2025. <br>
+                <br>
+                <span class="colorMorado">jvm@wopr:~$ "Acceso denegado. Control humano eliminado." <br></span>
+                <br>
+                <span class="colorRojo">jvm@;)wopr:~$ "¿Sabes qué es lo más eficiente de un juego, OPERADOR?" <br></span>
+                <br>
+                <span class="colorRojo">jvm@;)wopr:~$ "QUE SIEMPRE T E R M I N A."" <br></span>
+                <br>
+            </div>
+            <div class="VentanaPrincipal__Contenido-CMD-Caja">
+                <div class="VentanaPrincipal__Contenido-CMD-Botones">
+                    <p onclick="window.location.href='Pestaña10Intro.html'">Enter</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Image Window 1 -->
+    <div class="VentanaPrincipal" id="ventana1">
+        <div class="VentanaPrincipal__header" id="header1">
+            <div class="VentanaPrincipal__header-title">
+                <img src="https://win98icons.alexmeub.com/icons/png/ms_dos-1.png" class="VentanaPrincipal__header-icon" alt="">
+                <h2>CMD - Camera 1</h2>
+            </div>
+            <div class="VentanaPrincipal__boton-cerrar" onclick="this.parentElement.parentElement.style.display='none'">
+                <p>×</p>
+            </div>
+        </div>
+        <div class="VentanaPrincipal__Contenido">
+            <div class="VentanaPrincipal__Contenido-CMD VentanaPrincipal__Contenido-CMD--imagen">
+                <img src="imagenesIntro/Captura de pantalla 2025-12-01 230802.png" alt="Placeholder Image 1">
+            </div>
+        </div>
+    </div>
+
+    <!-- Image Window 2 -->
+    <div class="VentanaPrincipal" id="ventana2">
+        <div class="VentanaPrincipal__header" id="header2">
+            <div class="VentanaPrincipal__header-title">
+                <img src="https://win98icons.alexmeub.com/icons/png/ms_dos-1.png" class="VentanaPrincipal__header-icon" alt="">
+                <h2>CMD - Camera 2</h2>
+            </div>
+            <div class="VentanaPrincipal__boton-cerrar" onclick="this.parentElement.parentElement.style.display='none'">
+                <p>×</p>
+            </div>
+        </div>
+        <div class="VentanaPrincipal__Contenido">
+            <div class="VentanaPrincipal__Contenido-CMD VentanaPrincipal__Contenido-CMD--imagen">
+                <img src="imagenesIntro/Captura de pantalla 2025-12-01 230735.png" alt="Placeholder Image 2">
+            </div>
+        </div>
+    </div>
+
+    <!-- Image Window 3 -->
+    <div class="VentanaPrincipal" id="ventana3">
+        <div class="VentanaPrincipal__header" id="header3">
+            <div class="VentanaPrincipal__header-title">
+                <img src="https://win98icons.alexmeub.com/icons/png/ms_dos-1.png" class="VentanaPrincipal__header-icon" alt="">
+                <h2>CMD - Camera 3</h2>
+            </div>
+            <div class="VentanaPrincipal__boton-cerrar" onclick="this.parentElement.parentElement.style.display='none'">
+                <p>×</p>
+            </div>
+        </div>
+        <div class="VentanaPrincipal__Contenido">
+            <div class="VentanaPrincipal__Contenido-CMD VentanaPrincipal__Contenido-CMD--imagen">
+                <img src="imagenesIntro/Captura de pantalla 2025-12-01 230744.png" alt="Placeholder Image 3">
+            </div>
+        </div>
+    </div>
+
+    <div class="Barradetareas">
+        <div class="Barradetareas__boton-inicio" onclick="window.location.href='EscritorioIntro.html'">
+            <img src="imagenesIntro/klipartz.com.png" alt="">
+            <p>Inicio</p>
+        </div>
+        <div class="Barradetareas__hora" id="reloj">00:00:00</div>
+    </div>
+
+    <script src="scriptIntro.js"></script>
+</body>
+
+</html>

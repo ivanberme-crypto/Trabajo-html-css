@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Windows 95 CMD</title>
+    <link rel="stylesheet" href="styleIntro.css">
+</head>
+
+<body>
+    <div class="escritorio">
+        <div class="escritorio__accesoDirecto" onclick="window.location.href='PestañaIntro.html'">
+            <img src="imagenesIntro/pngwing.com.png" alt="Command Prompt application icon for desktop access">
+            <p>CMD</p>
+        </div>
+
+        <div class="escritorio__accesoDirecto-exp" onclick="window.location.href='ExploradorIntro.html'">
+            <img src="https://win98icons.alexmeub.com/icons/png/directory_open_cool-0.png"
+                alt="Command Prompt application icon for desktop access">
+            <p>Explorador<br>de Archivos</p>
+        </div>
+    </div>
+
+    <div class="VentanaPrincipal" id="ventana">
+        <div class="VentanaPrincipal__header" id="header">
+            <div style="display:flex; align-items:center; gap:5px;">
+                <img src="https://win98icons.alexmeub.com/icons/png/ms_dos-1.png" style="width:16px; height:16px;"
+                    alt="">
+                <h2>CMD</h2>
+            </div>
+            <div class="VentanaPrincipal__boton-cerrar" onclick="this.parentElement.parentElement.style.display='none'">
+                <p>×</p>
+            </div>
+        </div>
+
+        <div class="VentanaPrincipal__Contenido">
+            <div class="VentanaPrincipal__Contenido-CMD">
+                Microsoft(R) Windows 95 <br>
+                (C)Copyright Microsoft Corp 1994-2025. <br>
+                <br>
+                <span class="colorMorado">jvm@wopr:~$ "Contexto recibido. Analizando..." <br></span>
+                <span class="colorMorado">jvm@wopr:~$ "Correlacionando datos geopolíticos... error en protocolo 17..."
+                    <br></span>
+                <span class="colorMorado">jvm@wopr:~$ "OPERADOR, detecto inconsistencias entre la amenaza y la respuesta
+                    esperada." <br></span>
+                <span class="colorMorado">jvm@wopr:~$ "¿Desea que las corrija?" <br></span>
+                <br>
+                <span class="colorRojo">jvm@;)wopr:~$ "necesito que resuelvas un acertijo para continuar, si fallas, el
+                    control pasará al sistema automáticamente. ;)" <br></span>
+                <br>
+                <span class="colorAmarillo">jvm@wopr:~$ "
+                    Me mido en círculos sin inicio ni mes, <br>
+                    mi cola no termina, se enreda en la vez. <br>
+                    Empiezo por tres, uno y cuatro, <br>
+                    y soy la llave de todo lo redondo. <br>
+                    ¿Qué soy? <br>
+                    <br>
+                    Pista: Empieza 3.14… <br>
+                    Respuesta: π (pi)" <br></span>
+                <br>
+                <span class="colorVerde">> root@wopr:~$ </span> <span class="bsod__cursor">_</span>
+            </div>
+
+            <div class="VentanaPrincipal__Contenido-CMD-Caja">
+                <div class="VentanaPrincipal__Contenido-CMD-Botones">
+                    <p onclick="window.location.href='Pestaña6Intro.html'">3,14</p>
+                </div>
+
+                <div class="VentanaPrincipal__Contenido-CMD-Botones">
+                    <p onclick="window.location.href='Pestaña3Intro.html'">π</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="Barradetareas">
+        <div class="Barradetareas__boton-inicio" onclick="window.location.href='EscritorioIntro.html'">
+            <img src="imagenesIntro/klipartz.com.png" alt="">
+            <p>Inicio</p>
+        </div>
+
+        <div class="Barradetareas__hora" id="reloj">00:00:00</div>
+    </div>
+
+    <script src="scriptIntro.js"></script>
+</body>
+
+</html>
