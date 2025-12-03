@@ -1,0 +1,74 @@
+body {
+    background-image: url("imagen_base_naval.webp");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.caja1 {
+    background: #002350;
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 5%;
+    padding: 10px;
+    border-radius: 12px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+}
+
+.caja1__titulo {
+    margin: 0;
+}
+
+.caja2 {
+    margin-left: 730px;
+    margin-top: 140px;
+    width: 570px;
+    height: 390px;
+    background-color: rgb(0, 7, 105);
+    color: white;
+    padding: 15px;
+    border-radius: 10%;
+    border: 2px solid #e5e7eb;
+}
+
+.caja2__texto {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.caja2__botonera {
+    display: flex;
+    justify-content: center;
+}
+
+
+.boton1 {
+    width: 150px;
+    height: 90px;
+    margin-left: 30px;
+    background: #01367c;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.4);
+    transition: 0.3s ease;
+}
+
+.boton1:hover {
+    background: #003a7a;
+}
+
+.boton1:active {
+    transform: scale(0.97);
+}
