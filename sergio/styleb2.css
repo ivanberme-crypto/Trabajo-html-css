@@ -1,9 +1,9 @@
-body {
+.tramob2 {
     margin: 0;
     padding: 0;
 }
 
-body::before {
+.tramob2::before {
     content: "";
     position: fixed;
     top: 0;
