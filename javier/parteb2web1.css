@@ -1,4 +1,4 @@
-body {
+.web1 {
     background-image: url("imagen_base_naval.webp");
     background-size: cover;
     background-position: center;
@@ -17,7 +17,7 @@ body {
     border-radius: 12px;
     text-align: center;
     color: white;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
 }
 
 .caja1__titulo {
