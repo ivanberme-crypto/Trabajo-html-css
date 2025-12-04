@@ -935,7 +935,7 @@
 /* Pagina 4 javier ---------------------------------------------------------------*/
 
 .web4 {
-    background-image: url("ofina.png");
+    background-image: url("/Trabajo-html-css/imagenes_historia/ofina.png");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -1735,9 +1735,9 @@
 /* SERGIO PARTE CSS 1 ---------------------------------------------------------------------*/
 
 
-.tramob {
+.tramob1 {
     margin: 0;
-    background-image: url("/imagenes_historia/imagen\ base\ naval.png");
+    background-image: url("/Trabajo-html-css/imagenes_historia/sergio__background__5.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -1749,7 +1749,7 @@
 
 /*header*/
 
-.header__box {
+.headerb1__box {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1757,7 +1757,7 @@
 
 }
 
-.header__container {
+.headerb1__container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1770,7 +1770,7 @@
 
 }
 
-.header__texto {
+.headerb1__texto {
     color: rgb(255, 255, 255);
     font-family: "Turret Road", sans-serif;
     font-size: 18px;
@@ -1779,7 +1779,7 @@
 
 /*body*/
 
-.body__container {
+.bodyb1__container {
     margin-left: 645px;
     margin-top: 80px;
     width: 510px;
@@ -1791,13 +1791,13 @@
 
 }
 
-.container__texto {
+.containerb1__texto {
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
 
-.texto__text {
+.textob1__text {
     color: rgb(181, 0, 0);
     font-family: "Turret Road", sans-serif;
     font-size: 20px;
@@ -1805,7 +1805,7 @@
     text-align: center;
 }
 
-.container__botones {
+.containerb1__botones {
     display: flex;
     justify-content: space-between;
     align-items: end;
@@ -1816,7 +1816,7 @@
 
 
 
-.container__link {
+.containerb1__link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1830,7 +1830,7 @@
 
 }
 
-.container__link:hover {
+.containerb1__link:hover {
     transform: translateY(-4px);
     color: rgb(255, 255, 255);
     box-shadow:
@@ -1868,20 +1868,20 @@
 
 /*header*/
 
-.header {
+.headerb2 {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 15px;
 }
 
-.header__top {
+.headerb2__top {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.top__container {
+.topb2__container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1893,20 +1893,20 @@
     border-bottom: 4px solid white;
 }
 
-.container__titulo {
+.containerb2__titulo {
     color: rgb(255, 255, 255);
     font-family: "Turret Road", sans-serif;
 
 }
 
-.mensaje {
+.mensajeb2 {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
 }
 
-.mensaje__container {
+.mensajeb2__container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1921,7 +1921,7 @@
     margin-top: 80px;
 }
 
-.container__texto {
+.containerb2__texto {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1932,7 +1932,7 @@
     color: rgb(255, 255, 255);
 }
 
-.container__texto--color {
+.containerb2__texto--color {
     color: rgb(181, 0, 0);
     font-family: "Turret Road", sans-serif;
     font-size: 30px;
@@ -1942,7 +1942,7 @@
 
 /*footer*/
 
-.footer__container {
+.footerb2__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -1953,7 +1953,7 @@
 }
 
 
-.link__izquierda {
+.linkb2__izquierda {
     height: 50px;
     width: 50px;
     object-fit: cover;
@@ -1966,7 +1966,7 @@
 }
 
 
-.link__derecha {
+.linkb2__derecha {
     height: 50px;
     width: 50px;
     object-fit: cover;
@@ -1979,7 +1979,7 @@
 
 }
 
-.link__derecha:hover {
+.linkb2__derecha:hover {
     transform: translateY(-4px);
     box-shadow:
         0 0 25px rgba(0, 150, 255, 0.6),
@@ -1987,7 +1987,7 @@
     border-color: rgb(0, 150, 255);
 }
 
-.link__izquierda:hover {
+.linkb2__izquierda:hover {
     transform: translateY(-4px);
     box-shadow:
         0 0 25px rgba(0, 150, 255, 0.6),
@@ -2025,13 +2025,13 @@
 
 /*body*/
 
-.galeria {
+.galeriab3 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.galeria__viñetas {
+.galeriab3__viñetas {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2040,14 +2040,14 @@
 
 }
 
-.viñetas {
+.viñetasb3 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 40px;
 
 }
 
-.viñetas__container {
+.viñetasb3__container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2064,7 +2064,7 @@
     padding: 20px;
 }
 
-.viñetas__container__2 {
+.viñetasb3__container__2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2081,7 +2081,7 @@
     padding: 20px;
 }
 
-.viñetas__container__3 {
+.viñetasb3__container__3 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2099,7 +2099,7 @@
 
 }
 
-.viñetas__container__4 {
+.viñetasb3__container__4 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2116,7 +2116,7 @@
     padding: 20px;
 }
 
-.viñetas__container__5 {
+.viñetasb3__container__5 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2133,7 +2133,7 @@
     padding: 20px;
 }
 
-.viñetas__container:hover {
+.viñetasb3__container:hover {
     transform: translateY(-4px);
     box-shadow:
         0 0 25px rgba(0, 150, 255, 0.6),
@@ -2141,7 +2141,7 @@
     border-color: rgb(0, 150, 255);
 }
 
-.viñetas__container__2:hover {
+.viñetasb3__container__2:hover {
     transform: translateY(-4px);
     box-shadow:
         0 0 25px rgba(0, 150, 255, 0.6),
@@ -2149,7 +2149,7 @@
     border-color: rgb(0, 150, 255);
 }
 
-.viñetas__container__3:hover {
+.viñetasb3__container__3:hover {
     transform: translateY(-4px);
     box-shadow:
         0 0 25px rgba(0, 150, 255, 0.6),
@@ -2157,7 +2157,7 @@
     border-color: rgb(0, 150, 255);
 }
 
-.viñetas__container__4:hover {
+.viñetasb3__container__4:hover {
     transform: translateY(-4px);
     box-shadow:
         0 0 25px rgba(0, 150, 255, 0.6),
@@ -2165,7 +2165,7 @@
     border-color: rgb(0, 150, 255);
 }
 
-.viñetas__container__5:hover {
+.viñetasb3__container__5:hover {
     transform: translateY(-4px);
     box-shadow:
         0 0 25px rgba(0, 150, 255, 0.6),
@@ -2173,28 +2173,28 @@
     border-color: rgb(0, 150, 255);
 }
 
-.container__imagen {
+.containerb3__imagen {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.imagen {
+.imagenb3 {
     height: 130px;
     width: 130px;
     border-radius: 50%;
     object-fit: cover;
 }
 
-.container__contenido {
+.containerb3__contenido {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.contenido__nombre {
+.contenidob3__nombre {
     color: rgb(255, 255, 255);
     font-family: "Turret Road", sans-serif;
     font-size: 15px;
@@ -2202,7 +2202,7 @@
     text-align: center;
 }
 
-.contenido__informacion {
+.contenidob3__informacion {
     color: rgb(255, 255, 255);
     font-family: "Turret Road", sans-serif;
     font-size: 15px;
@@ -2212,7 +2212,7 @@
 
 /*footer*/
 
-.footer__container {
+.footerb3__container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2225,7 +2225,7 @@
 }
 
 
-.link__izquierda {
+.linkb3__izquierda {
     height: 50px;
     width: 50px;
     object-fit: cover;
@@ -2238,7 +2238,7 @@
 }
 
 
-.link__derecha {
+.linkb3__derecha {
     height: 50px;
     width: 50px;
     object-fit: cover;
@@ -2251,7 +2251,7 @@
 
 }
 
-.link__derecha:hover {
+.linkb3__derecha:hover {
     transform: translateY(-4px);
     box-shadow:
         0 0 25px rgba(0, 150, 255, 0.6),
@@ -2259,7 +2259,7 @@
     border-color: rgb(0, 150, 255);
 }
 
-.link__izquierda:hover {
+.linkb3__izquierda:hover {
     transform: translateY(-4px);
     box-shadow:
         0 0 25px rgba(0, 150, 255, 0.6),
@@ -2296,20 +2296,20 @@
 
 /*header*/
 
-.header2 {
+.headerb4 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.header__container {
+.headerb4__container {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 30px;
 }
 
-.container__top {
+.containerb4__top {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2323,7 +2323,7 @@
 
 }
 
-.container__titulo {
+.containerb4__titulo {
     color: rgb(249, 231, 231);
     font-family: "Turret Road", sans-serif;
 
@@ -2331,19 +2331,19 @@
 
 /*body*/
 
-.mapa {
+.mapab4 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.mapa__container {
+.mapab4__container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.container__imagen {
+.containerb4__imagen {
     width: 450px;
     height: 450px;
     border-radius: 50%;
@@ -2354,7 +2354,7 @@
 
 }
 
-.container__imagen:hover {
+.containerb4__imagen:hover {
     transform: translateY(-4px);
     box-shadow:
         0 0 25px rgba(0, 150, 255, 0.6),
@@ -2368,7 +2368,7 @@
 
 /*footer*/
 
-.footer__container {
+.footerb4__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -2382,7 +2382,7 @@
 
 /* SERGIO PARTE CSS 5 ---------------------------------------------------------------------*/
 
-.link__izquierda {
+.linkb5__izquierda {
     height: 50px;
     width: 50px;
     object-fit: cover;
@@ -2395,7 +2395,7 @@
 }
 
 
-.link__derecha {
+.linkb5__derecha {
     height: 50px;
     width: 50px;
     object-fit: cover;
@@ -2408,7 +2408,7 @@
 
 }
 
-.link__derecha:hover {
+.linkb5__derecha:hover {
     transform: translateY(-4px);
     box-shadow:
         0 0 25px rgba(0, 150, 255, 0.6),
@@ -2416,7 +2416,7 @@
     border-color: rgb(0, 150, 255);
 }
 
-.link__izquierda:hover {
+.linkb5__izquierda:hover {
     transform: translateY(-4px);
     box-shadow:
         0 0 25px rgba(0, 150, 255, 0.6),
@@ -2442,7 +2442,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(/imagenes_historia/background.jpeg);
+    background-image: url(/Trabajo-html-css/imagenes_historia/sergio\ background2.jpeg);
     background-size: cover;
     background-position: center;
     filter: blur(2px);
@@ -2455,7 +2455,7 @@
 /*body*/
 
 
-.galeria {
+.galeriab5 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2463,26 +2463,26 @@
     gap: 110px;
 }
 
-.galeria__container__izq {
+.galeriab5__container__izq {
     display: flex;
 }
 
-.galeria__container__cen {
+.galeriab5__container__cen {
     display: flex;
 }
 
-.galeria__container__der {
+.galeriab5__container__der {
     display: flex;
 }
 
-.container__imagen {
+.containerb5__imagen {
     width: 300px;
     height: 250px;
     border: 1px solid white;
 
 }
 
-.galeria__2 {
+.galeriab5__2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2491,7 +2491,7 @@
 
 }
 
-.galeria__2__container {
+.galeriab5__2__container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 300px;
@@ -2500,20 +2500,20 @@
     padding: 20px;
 }
 
-.container__box {
+.containerb5__box {
     grid-area: a;
     border: 1px solid white;
 
 }
 
-.container__box__2 {
+.containerb5__box__2 {
     grid-area: b;
     border: 1px solid white;
 
 }
 
 
-.box__imagen {
+.boxb5__imagen {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -2523,7 +2523,7 @@
 
 /*footer*/
 
-.footer__container {
+.footerb5__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -2535,7 +2535,7 @@
 /* SERGIO PARTE CSS 6 ---------------------------------------------------------------------*/
 
 
-.link__izquierda {
+.linkb6__izquierda {
     height: 50px;
     width: 50px;
     object-fit: cover;
@@ -2548,7 +2548,7 @@
 }
 
 
-.link__derecha {
+.linkb6__derecha {
     height: 50px;
     width: 50px;
     object-fit: cover;
@@ -2561,7 +2561,7 @@
 
 }
 
-.link__derecha:hover {
+.linkb6__derecha:hover {
     transform: translateY(-4px);
     box-shadow:
         0 0 25px rgba(0, 150, 255, 0.6),
@@ -2569,7 +2569,7 @@
     border-color: rgb(0, 150, 255);
 }
 
-.link__izquierda:hover {
+.linkb6__izquierda:hover {
     transform: translateY(-4px);
     box-shadow:
         0 0 25px rgba(0, 150, 255, 0.6),
@@ -2594,7 +2594,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(/imagenes_historia/background__planeta.jpeg);
+    background-image: url(/Trabajo-html-css/imagenes_historia/sergio\ barckground.jpeg);
     background-size: cover;
     background-position: center;
     filter: blur(6px);
@@ -2605,13 +2605,13 @@
 
 
 
-.galeria2 {
+.galeria2b6 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.galeria__container2 {
+.galeriab6__container2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2619,7 +2619,7 @@
 }
 
 
-.box__imagen {
+.boxb6__imagen {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2631,7 +2631,7 @@
 
 }
 
-.mensaje {
+.mensajeb6 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2639,7 +2639,7 @@
 
 }
 
-.mensaje__container {
+.mensajeb6__container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2652,7 +2652,7 @@
     height: 220px;
 }
 
-.container__texto {
+.containerb6__texto {
     color: rgb(215, 130, 3);
     font-family: "Turret Road", sans-serif;
     font-size: 25px;
@@ -2662,7 +2662,7 @@
 
 /*footer*/
 
-.footer__container {
+.footerb6__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -2673,7 +2673,7 @@
 }
 
 
-.link__izquierda {
+.linkb6__izquierda {
     height: 50px;
     width: 50px;
     object-fit: cover;
@@ -2686,7 +2686,7 @@
 }
 
 
-.link__derecha {
+.linkb6__derecha {
     height: 50px;
     width: 50px;
     object-fit: cover;
@@ -2699,7 +2699,7 @@
 
 }
 
-.link__derecha:hover {
+.linkb6__derecha:hover {
     transform: translateY(-4px);
     box-shadow:
         0 0 25px rgba(0, 150, 255, 0.6),
@@ -2707,7 +2707,7 @@
     border-color: rgb(0, 150, 255);
 }
 
-.link__izquierda:hover {
+.linkb6__izquierda:hover {
     transform: translateY(-4px);
     box-shadow:
         0 0 25px rgba(0, 150, 255, 0.6),
@@ -2721,7 +2721,7 @@
 
 .tramob7 {
     margin: 0;
-    background-image: url("/imagenes_historia/imagen\ base\ naval.png");
+    background-image: url("/Trabajo-html-css/imagenes_historia/sergio__background__5.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -2732,7 +2732,7 @@
 
 /*header*/
 
-.header__box {
+.headerb7__box {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2740,7 +2740,7 @@
 
 }
 
-.header__container {
+.headerb7__container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2753,7 +2753,7 @@
 
 }
 
-.header__texto {
+.headerb7__texto {
     color: white;
     font-family: "Turret Road", sans-serif;
     font-size: 18px;
@@ -2762,7 +2762,7 @@
 
 /*body*/
 
-.body__box {
+.bodyb7__box {
     margin-left: 645px;
     margin-top: 80px;
     width: 510px;
@@ -2774,13 +2774,13 @@
 
 }
 
-.body__container__texto {
+.bodyb7__container__texto {
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
 
-.box__texto {
+.boxb7__texto {
     color: rgb(181, 0, 0);
     font-family: "Turret Road", sans-serif;
     font-size: 20px;
@@ -2788,7 +2788,7 @@
     text-align: center;
 }
 
-.body__container__botones {
+.bodyb7__container__botones {
     display: flex;
     justify-content: space-around;
     align-items: end;
@@ -2799,7 +2799,7 @@
 
 
 
-.container__link {
+.containerb7__link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2813,7 +2813,7 @@
 
 }
 
-.container__link:hover {
+.containerb7__link:hover {
     transform: translateY(-4px);
     box-shadow:
         0 0 25px rgba(0, 150, 255, 0.6),
