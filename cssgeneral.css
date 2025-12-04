@@ -929,3 +929,88 @@
     opacity: 1;
     filter: contrast(120%);
 }
+
+
+
+/* Pagina 4 javier ---------------------------------------------------------------*/
+
+.web4 {
+    background-image: url("ofina.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+
+.caja1 {
+    background: #002350;
+    width: 250px;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+.contenedor-cuadros {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+
+.cuadro {
+    background-color: rgb(0, 7, 105);
+    border: 2px solid #e5e7eb;
+    border-radius: 15px;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+
+.cuadro-rectangular {
+    background-color: rgb(0, 7, 105);
+    border: 2px solid #e5e7eb;
+    border-radius: 15px;
+    width: 70%;
+    max-width: 900px;
+    height: 120px;
+    margin: 50px auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+
+.cuadro:hover {
+    background-color: #01367c;
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+    border-color: #00f0ff;
+}
+
+.cuadro-rectangular:hover {
+    background-color: #01367c;
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+    border-color: #00f0ff;
+}
