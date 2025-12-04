@@ -1,10 +1,10 @@
-body {
+.tramob4 {
     margin: 0;
     padding: 0;
     height: 100vh;
 }
 
-body::before {
+.tramob4::before {
     content: "";
     position: fixed;
     top: 0;
@@ -21,7 +21,7 @@ body::before {
 
 /*header*/
 
-.header {
+.header2 {
     display: flex;
     justify-content: center;
     align-items: center;
