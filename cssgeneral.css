@@ -1014,3 +1014,722 @@
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
     border-color: #00f0ff;
 }
+
+
+
+/* JP PARTE CSS ---------------------------------------------------------------------*/
+
+/* Fuente personalizada */
+@font-face {
+    font-family: "Windows95";
+    src: url("tipografiaIntro/W95FA.otf") format("opentype");
+}
+
+.colorVerde {
+    color: #00ff33;
+}
+
+.colorMorado {
+    color: #7200a7;
+}
+
+.colorRojo {
+    color: #b90000;
+}
+
+.colorAmarillo {
+    color: #ffc800;
+}
+
+body {
+    display: flex;
+    margin: 0;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: "Windows95", sans-serif;
+    background-color: #008080;
+}
+
+.pestañaInicio img {
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+}
+
+/* Ventana principal */
+.VentanaPrincipal {
+    position: absolute;
+    /* permite moverla */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 700px;
+    height: 500px;
+    background-color: #c3c3c3;
+
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-bottom: 2px solid #4d4d4d;
+    border-right: 2px solid #4d4d4d;
+
+    box-sizing: border-box;
+}
+
+.VentanaPrincipal {
+    position: absolute;
+    /* permite moverla */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 700px;
+    height: 500px;
+    background-color: #c3c3c3;
+
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-bottom: 2px solid #4d4d4d;
+    border-right: 2px solid #4d4d4d;
+
+    box-sizing: border-box;
+}
+
+/* Barra de título */
+.VentanaPrincipal__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* Empuja el h2 a la izquierda y el botón a la derecha */
+    width: calc(100% - 4px);
+    height: 30px;
+    background-color: #0827f5;
+    padding: 0 5px;
+    /* margen interno horizontal opcional */
+    box-sizing: border-box;
+    box-shadow: inset 1px 1px 0 #ffffff, inset -1px -1px 0 #000080;
+    cursor: grab;
+}
+
+.VentanaPrincipal__boton-cerrar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+
+    background-color: #c3c3c3;
+    color: black;
+    font-family: "Windows95", sans-serif;
+    font-size: 14px;
+    height: 25px;
+    /* un poco menor que la barra */
+    width: 25px;
+    margin-right: 0px;
+    padding-left: 1px;
+    margin-top: 1px;
+    box-sizing: border-box;
+    cursor: pointer;
+
+    /* Borde 3D estilo Windows 95 */
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-bottom: 2px solid #4d4d4d;
+    border-right: 2px solid #4d4d4d;
+
+    user-select: none;
+    /* evita que el texto se seleccione al hacer click */
+}
+
+.VentanaPrincipal__boton-cerrar p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Efecto presionado al hacer click */
+.VentanaPrincipal__boton-cerrar:active {
+    border-top: 2px solid #4d4d4d;
+    border-left: 2px solid #4d4d4d;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+    background-color: #d0d0d0;
+}
+
+.VentanaPrincipal__header h2 {
+    color: white;
+    font-size: 17px;
+    margin: 0;
+    font-weight: normal;
+    text-align: left;
+}
+
+/* Contenido con borde 3D */
+.VentanaPrincipal__Contenido {
+    display: flex;
+    flex-direction: column;
+    /* apila CMD y botón verticalmente */
+    justify-content: flex-start;
+    /* pega al top */
+    align-items: flex-start;
+    /* alinea todo a la izquierda */
+    margin-top: 5px;
+    flex: 1;
+    width: 100%;
+    background-color: #c3c3c3;
+    box-sizing: border-box;
+}
+
+.VentanaPrincipal__Contenido-exp {
+    display: flex;
+    flex-direction: column;
+    /* apila CMD y botón verticalmente */
+    justify-content: flex-start;
+    /* pega al top */
+    align-items: flex-start;
+    /* alinea todo a la izquierda */
+    margin-top: 5px;
+    flex: 1;
+    width: 100%;
+    background-color: #c3c3c3;
+    box-sizing: border-box;
+}
+
+.VentanaPrincipal__Contenido-CMD {
+    width: 99%;
+    height: 90%;
+    background-color: black;
+    color: #ffffff;
+    border: 2px inset #4d4d4d;
+    box-sizing: border-box;
+    margin-left: 2.5px;
+    padding: 10px;
+    font-family: monospace;
+}
+
+.VentanaPrincipal__contenido-CMD-Caja {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+.VentanaPrincipal__Contenido-CMD-Botones {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    background-color: #c3c3c3;
+    color: black;
+    font-family: "Windows95", sans-serif;
+    font-size: 16px;
+    height: 40px;
+    /* un poco menor que la barra */
+    width: 100px;
+    margin-right: 10px;
+    padding-left: 1px;
+    box-sizing: border-box;
+    cursor: pointer;
+
+    /* Borde 3D estilo Windows 95 */
+    border-top: 3px solid white;
+    border-left: 3px solid white;
+    border-bottom: 3px solid #4d4d4d;
+    border-right: 3px solid #4d4d4d;
+
+    user-select: none;
+    /* evita que el texto se seleccione al hacer click */
+    margin-top: 4px;
+    margin-left: 2.5px;
+    align-self: flex-start;
+    /* fuerza a la izquierda */
+}
+
+.VentanaPrincipal__Contenido-CMD-Botones:active {
+    border-top: 3px solid #4d4d4d;
+    border-left: 3px solid #4d4d4d;
+    border-bottom: 3px solid white;
+    border-right: 3px solid white;
+    background-color: #d0d0d0;
+}
+
+
+/* Barra de tareas */
+.Barradetareas {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #c3c3c3;
+    border-top: 2px solid #ffffff;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    /* margen interno opcional */
+    box-sizing: border-box;
+}
+
+/* Botón de inicio */
+.Barradetareas__boton-inicio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    background-color: #c3c3c3;
+    color: black;
+    font-family: "Windows95", sans-serif;
+    font-size: 14px;
+    height: 40px;
+    /* un poco menor que la barra */
+    width: 100px;
+    margin-right: 10px;
+    padding-left: 1px;
+    box-sizing: border-box;
+    cursor: pointer;
+
+    /* Borde 3D estilo Windows 95 */
+    border-top: 3px solid white;
+    border-left: 3px solid white;
+    border-bottom: 3px solid #4d4d4d;
+    border-right: 3px solid #4d4d4d;
+
+    user-select: none;
+    /* evita que el texto se seleccione al hacer click */
+}
+
+.Barradetareas__boton-inicio img {
+    margin-right: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+.Barradetareas__boton-inicio p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Efecto presionado al hacer click */
+.Barradetareas__boton-inicio:active {
+    border-top: 3px solid #4d4d4d;
+    border-left: 3px solid #4d4d4d;
+    border-bottom: 3px solid white;
+    border-right: 3px solid white;
+    background-color: #d0d0d0;
+}
+
+.Barradetareas__hora {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    background-color: #c3c3c3;
+    color: black;
+    font-family: "Windows95", sans-serif;
+    font-size: 20px;
+    height: 40px;
+    width: 100px;
+    padding-left: 1px;
+    margin-right: 10px;
+    box-sizing: border-box;
+
+    border-top: 3px solid #4d4d4d;
+    border-left: 3px solid #4d4d4d;
+    border-bottom: 3px solid white;
+    border-right: 3px solid white;
+    background-color: #d0d0d0;
+
+    margin-left: auto;
+    /* Esto empuja el reloj a la derecha */
+}
+
+.escritorio {
+    width: 100%;
+    height: 100%;
+}
+
+.escritorio__accesoDirecto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 70px;
+    height: 70px;
+    color: #ffffff;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.escritorio__accesoDirecto-exp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 70px;
+    height: 70px;
+    color: #ffffff;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.escritorio__accesoDirecto-exp p {
+    margin-top: 5px;
+}
+
+.escritorio__accesoDirecto p {
+    margin-top: 5px;
+}
+
+.escritorio img {
+    width: 50px;
+    height: 50px;
+}
+
+/* ====================================================
+   ESTILOS INTERNOS EXPLORADOR (Añadir al final del CSS)
+   ==================================================== */
+
+/* Barra de Menú superior */
+.Explorador__Menu {
+    display: flex;
+    width: 100%;
+    padding: 2px 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    gap: 15px;
+    color: black;
+}
+
+/* Línea separadora estilo W95 */
+.Explorador__Separador {
+    width: 98%;
+    height: 2px;
+    border-top: 1px solid #808080;
+    border-bottom: 1px solid #ffffff;
+    margin: 2px auto;
+}
+
+/* Contenedor botones herramientas */
+.Explorador__Herramientas {
+    display: flex;
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+/* Botón individual herramienta (sin imagen, solo texto/espacio) */
+.Explorador__BtnTool {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    margin-right: 5px;
+    padding: 2px 5px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    /* Invisible hasta hover */
+}
+
+/* Efecto hover estilo botón */
+.Explorador__BtnTool:hover {
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-bottom: 1px solid #4d4d4d;
+    border-right: 1px solid #4d4d4d;
+}
+
+.Explorador__VerticalSep {
+    width: 2px;
+    height: 30px;
+    margin: 0 5px;
+    border-left: 1px solid #808080;
+    border-right: 1px solid white;
+}
+
+/* Barra de dirección */
+.Explorador__Direccion {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 4px 5px;
+    box-sizing: border-box;
+    gap: 5px;
+    font-size: 16px;
+    color: #4d4d4d;
+    border-top: 1px solid white;
+    /* Línea luz superior */
+}
+
+/* Input blanco de la dirección */
+.Explorador__InputBlanco {
+    flex: 1;
+    height: 22px;
+    background: white;
+    border-top: 2px solid #4d4d4d;
+    border-left: 2px solid #4d4d4d;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    font-size: 16px;
+    position: relative;
+    color: black;
+}
+
+.Explorador__FlechaCombo {
+    margin-left: auto;
+    width: 20px;
+    height: 19px;
+    background: #c3c3c3;
+    margin-top: 4px;
+    border-top: 2x solid rgba(255, 255, 255, 0.825);
+    border-left: 2px solid white;
+    border-bottom: 2px solid #4d4d4d;
+    border-right: 2px solid #4d4d4d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+}
+
+/* EL ÁREA BLANCA PRINCIPAL */
+.Explorador__AreaBlanca {
+    flex: 1;
+    width: 99%;
+    background-color: white;
+    border-top: 2px solid #4d4d4d;
+    border-left: 2px solid #4d4d4d;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+    box-sizing: border-box;
+    margin: 5px auto;
+    padding: 10px;
+    overflow-y: auto;
+
+    /* Grid para los iconos */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+    grid-auto-rows: 90px;
+    gap: 5px;
+}
+
+/* Cada icono dentro del área blanca */
+.Explorador__Icono {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    font-size: 13x;
+    color: black;
+}
+
+.Explorador__Icono img {
+    width: 32px;
+    height: 32px;
+    margin-bottom: 2px;
+}
+
+.Explorador__Icono p {
+    margin: 0;
+}
+
+/* Icono seleccionado (azul) */
+.Explorador__Icono.seleccionado p {
+    background-color: #000080;
+    color: white;
+    outline: 1px dotted white;
+}
+
+.Explorador__Icono.seleccionado img {
+    opacity: 0.7;
+}
+
+/* Barra de estado inferior */
+.Explorador__Estado {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 0 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    gap: 20px;
+    border-top: 1px solid #808080;
+    color: black;
+}
+
+.Explorador__EstadoDerecha {
+    margin-left: auto;
+    border-left: 1px solid #808080;
+    border-top: 1px solid #808080;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    padding: 2px 10px;
+}
+
+/* Positioning for draggable windows */
+#ventana {
+    top: 10%;
+    left: 10%;
+}
+
+#ventana1 {
+    top: 25%;
+    left: 15%;
+}
+
+#ventana2 {
+    top: 30%;
+    left: 30%;
+}
+
+#ventana3 {
+    top: 40%;
+    left: 40%;
+}
+
+/* Header icon style */
+.VentanaPrincipal__header-icon {
+    width: 16px;
+    height: 16px;
+}
+
+/* Flex container for header title */
+.VentanaPrincipal__header-title {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* Styles for CMD content area with an image */
+.VentanaPrincipal__Contenido-CMD--imagen {
+    padding: 0;
+    /* Remove padding to let image fill the space */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    /* Match original height */
+    width: 99%;
+    /* Match original width */
+    margin-left: 2.5px;
+    /* Match original margin */
+    border: 2px inset #4d4d4d;
+    /* Match original border */
+    background-color: black;
+    /* Keep background black in case image is transparent */
+}
+
+/* Styles for the image itself to fill the container */
+.VentanaPrincipal__Contenido-CMD--imagen img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bsod {
+    /* Sobrescribimos el estilo del escritorio */
+    background-color: #0000AA !important;
+    color: #FFFFFF;
+    /* Fuente monoespaciada estilo consola */
+    font-family: 'Courier New', Courier, 'Lucida Console', monospace;
+    font-weight: bold;
+    font-size: 18px;
+    /* Un poco más grande para simular baja resolución */
+
+    /* Mantenemos el flex del body original para centrar todo en pantalla */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.bsod__container {
+    width: 640px;
+    /* Ancho fijo para simular resolución VGA 640x480 */
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Centra el título y el pie */
+}
+
+/* La etiqueta "Windows" centrada con fondo blanco */
+.bsod__title {
+    background-color: #A8A8A8;
+    /* Un gris muy claro, casi blanco */
+    color: #0000AA;
+    padding: 2px 15px;
+    margin-bottom: 40px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    display: inline-block;
+    box-shadow: -1px -1px 0 #0000AA;
+    /* Pequeño truco para suavizar bordes */
+}
+
+/* Contenedor del texto de error para alinearlo a la izquierda */
+.bsod__content {
+    text-align: left;
+    width: 100%;
+    margin-bottom: 40px;
+    line-height: 1.5;
+}
+
+.bsod__content p {
+    margin-bottom: 20px;
+}
+
+/* Lista sin puntos, usamos los asteriscos manuales */
+.bsod__list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.bsod__list li {
+    margin-bottom: 15px;
+    text-indent: -1.2em;
+    /* Sangría francesa para que el texto se alinee bien */
+    padding-left: 1.2em;
+}
+
+.bsod__footer {
+    text-align: center;
+    animation: none;
+    /* El texto en sí no parpadea */
+}
+
+/* El guión bajo parpadeante */
+.bsod__cursor {
+    display: inline-block;
+    animation: blink 0.8s step-end infinite;
+}
+
+@keyframes blink {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+}
+
+
+
+
+/* JP PARTE CSS ---------------------------------------------------------------------*/
