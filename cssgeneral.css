@@ -723,7 +723,7 @@
 
 
 .web1 {
-    background-image: url("imagen_base_naval.webp");
+    background-image: url("/Trabajo-html-css/imagenes_historia/sergio_background_3.png");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -801,7 +801,7 @@
 /* Pagina 2 javier ---------------------------------------------------------------*/
 
 .web2 {
-    background-image: url("puerta-piedra-arco-arquitectura-tres-puertas-blancas-blanco_49071-5300.jpg");
+    background-image: url("/Trabajo-html-css/imagenes_historia/puerta-piedra-arco-arquitectura-tres-puertas-blancas-blanco_49071-5300.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -1858,7 +1858,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(/imagenes_historia/fondo__supermercado.jpg);
+    background-image: url(/Trabajo-html-css/imagenes_historia/sergio_background__supermercado.jpg);
     background-size: cover;
     background-position: center;
     filter: blur(6px);
@@ -2014,7 +2014,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(/imagenes_historia/fondo__supermercado.jpg);
+    background-image: url(/Trabajo-html-css/imagenes_historia/sergio_background__supermercado.jpg);
     background-size: cover;
     background-position: center;
     filter: blur(6px);
@@ -2286,7 +2286,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(/imagenes_historia/background__planeta.jpeg);
+    background-image: url(/Trabajo-html-css/imagenes_historia/sergio\ barckground.jpeg);
     background-size: cover;
     background-position: center;
     filter: blur(6px);
