@@ -1041,7 +1041,7 @@
     color: #ffc800;
 }
 
-body {
+.bodyjp {
     display: flex;
     margin: 0;
     height: 100vh;
