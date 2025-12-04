@@ -1,6 +1,8 @@
-body {
+/* Pagina 1 berme */
+
+.pagina1 {
     display: flex;
-    background-image: url(/Trabajo-html-css/imagenes_historia_B/Tunel1.png);
+    background-image: url(/Trabajo-html-css/imagenes_historia/Tunel1.png);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
