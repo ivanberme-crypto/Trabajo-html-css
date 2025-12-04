@@ -1022,7 +1022,7 @@
 /* Fuente personalizada */
 @font-face {
     font-family: "Windows95";
-    src: url("tipografiaIntro/W95FA.otf") format("opentype");
+    src: url("jean/html y css/tipografiaIntro/W95FA.otf") format("opentype");
 }
 
 .colorVerde {
