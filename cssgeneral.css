@@ -1,4 +1,3 @@
-
 /* Pagina 1 berme -----------------------------------------------------------------------------*/
 
 .pagina1 {
@@ -1118,14 +1117,14 @@
 }
 
 .VentanaPrincipal__header-contenido {
-    display:flex;
-    align-items:center;
-    gap:5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 
 .VentanaPrincipal__header-contenido img {
-    width:16px;
-    height:16px;
+    width: 16px;
+    height: 16px;
 }
 
 .VentanaPrincipal__boton-cerrar {
@@ -1418,8 +1417,8 @@
 }
 
 .Explorador__InputBlanco img {
-    width:12px;
-    margin-right:5px;
+    width: 12px;
+    margin-right: 5px;
 }
 
 /* Línea separadora estilo W95 */
@@ -2015,3 +2014,1072 @@
 
 
 /* SERGIO PARTE CSS 2 ---------------------------------------------------------------------*/
+
+
+.tramob2 {
+    margin: 0;
+    padding: 0;
+}
+
+.tramob2::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(/Trabajo-html-css/imagenes_historia/sergio_background__supermercado.jpg);
+    background-size: cover;
+    background-position: center;
+    filter: blur(6px);
+    z-index: -1;
+    transform: scale(1.1);
+}
+
+/*header*/
+
+
+.headerb2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+
+.headerb2__top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.topb2__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1e293b;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    border: 2px solid #e5e7eb;
+    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.6);
+    border-bottom: 4px solid white;
+}
+
+
+.containerb2__titulo {
+    color: rgb(255, 255, 255);
+    font-family: "Turret Road", sans-serif;
+
+}
+
+
+.mensajeb2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+.mensajeb2__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1e293b;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    border: 2px solid #e5e7eb;
+    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.6);
+    border-bottom: 4px solid white;
+    padding: 20px;
+    width: 80%;
+    margin-top: 80px;
+}
+
+
+
+.containerb2__texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Turret Road", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+
+
+
+.containerb2__texto--color {
+    color: rgb(181, 0, 0);
+    font-family: "Turret Road", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+
+/*footer*/
+
+
+
+.footerb2__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    margin-top: 120px;
+
+
+}
+
+
+
+.linkb2__izquierda {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    background: #1e293b;
+    color: #f8fafc;
+    border: 2px solid #e5e7eb;
+    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.6);
+    padding: 5px;
+}
+
+
+
+.linkb2__derecha {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    background: #1e293b;
+    color: #f8fafc;
+    border: 2px solid #e5e7eb;
+    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.6);
+    padding: 5px;
+
+}
+
+
+.linkb2__derecha:hover {
+    transform: translateY(-4px);
+    box-shadow:
+        0 0 25px rgba(0, 150, 255, 0.6),
+        inset 0 0 12px rgba(0, 150, 255, 0.25);
+    border-color: rgb(0, 150, 255);
+}
+
+
+.linkb2__izquierda:hover {
+    transform: translateY(-4px);
+    box-shadow:
+        0 0 25px rgba(0, 150, 255, 0.6),
+        inset 0 0 12px rgba(0, 150, 255, 0.25);
+    border-color: rgb(0, 150, 255);
+}
+
+
+/* SERGIO PARTE CSS 3 ---------------------------------------------------------------------*/
+
+
+
+.tramob3 {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.tramob3::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(/Trabajo-html-css/imagenes_historia/sergio_background__supermercado.jpg);
+    background-size: cover;
+    background-position: center;
+    filter: blur(6px);
+    z-index: -1;
+    transform: scale(1.1);
+}
+
+
+/*body*/
+
+
+.galeriab3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.galeriab3__viñetas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+
+}
+
+
+.viñetasb3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+
+}
+
+
+.viñetasb3__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #1e293b;
+    color: #f8fafc;
+    border: 2px solid #e5e7eb;
+    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.6);
+    border-bottom: 4px solid white;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    padding: 20px;
+}
+
+
+.viñetasb3__container__2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #1e293b;
+    color: #f8fafc;
+    border: 2px solid #e5e7eb;
+    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.6);
+    border-bottom: 4px solid white;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    padding: 20px;
+}
+
+
+.viñetasb3__container__3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #1e293b;
+    color: #f8fafc;
+    border: 2px solid #e5e7eb;
+    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.6);
+    border-bottom: 4px solid white;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    padding: 20px;
+
+}
+
+
+.viñetasb3__container__4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #1e293b;
+    color: #f8fafc;
+    border: 2px solid #e5e7eb;
+    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.6);
+    border-bottom: 4px solid white;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    padding: 20px;
+}
+
+
+.viñetasb3__container__5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #1e293b;
+    color: #f8fafc;
+    border: 2px solid #e5e7eb;
+    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.6);
+    border-bottom: 4px solid white;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    padding: 20px;
+}
+
+
+.viñetasb3__container:hover {
+    transform: translateY(-4px);
+    box-shadow:
+        0 0 25px rgba(0, 150, 255, 0.6),
+        inset 0 0 12px rgba(0, 150, 255, 0.25);
+    border-color: rgb(0, 150, 255);
+}
+
+
+.viñetasb3__container__2:hover {
+    transform: translateY(-4px);
+    box-shadow:
+        0 0 25px rgba(0, 150, 255, 0.6),
+        inset 0 0 12px rgba(0, 150, 255, 0.25);
+    border-color: rgb(0, 150, 255);
+}
+
+
+.viñetasb3__container__3:hover {
+    transform: translateY(-4px);
+    box-shadow:
+        0 0 25px rgba(0, 150, 255, 0.6),
+        inset 0 0 12px rgba(0, 150, 255, 0.25);
+    border-color: rgb(0, 150, 255);
+}
+
+
+.viñetasb3__container__4:hover {
+    transform: translateY(-4px);
+    box-shadow:
+        0 0 25px rgba(0, 150, 255, 0.6),
+        inset 0 0 12px rgba(0, 150, 255, 0.25);
+    border-color: rgb(0, 150, 255);
+}
+
+
+.viñetasb3__container__5:hover {
+    transform: translateY(-4px);
+    box-shadow:
+        0 0 25px rgba(0, 150, 255, 0.6),
+        inset 0 0 12px rgba(0, 150, 255, 0.25);
+    border-color: rgb(0, 150, 255);
+}
+
+
+.containerb3__imagen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.imagenb3 {
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+.containerb3__contenido {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contenidob3__nombre {
+    color: rgb(255, 255, 255);
+    font-family: "Turret Road", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+.contenidob3__informacion {
+    color: rgb(255, 255, 255);
+    font-family: "Turret Road", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+}
+
+/*footer*/
+
+
+.footerb3__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    padding-bottom: 20px;
+    margin-bottom: 60px;
+    gap: 300px;
+
+
+}
+
+
+
+.linkb3__izquierda {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    background: #1e293b;
+    color: #f8fafc;
+    border: 2px solid #e5e7eb;
+    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.6);
+    padding: 5px;
+}
+
+
+
+.linkb3__derecha {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    background: #1e293b;
+    color: #f8fafc;
+    border: 2px solid #e5e7eb;
+    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.6);
+    padding: 5px;
+
+}
+
+
+.linkb3__derecha:hover {
+    transform: translateY(-4px);
+    box-shadow:
+        0 0 25px rgba(0, 150, 255, 0.6),
+        inset 0 0 12px rgba(0, 150, 255, 0.25);
+    border-color: rgb(0, 150, 255);
+}
+
+
+.linkb3__izquierda:hover {
+    transform: translateY(-4px);
+    box-shadow:
+        0 0 25px rgba(0, 150, 255, 0.6),
+        inset 0 0 12px rgba(0, 150, 255, 0.25);
+    border-color: rgb(0, 150, 255);
+}
+
+
+
+/* SERGIO PARTE CSS 4 ---------------------------------------------------------------------*/
+
+
+
+.tramob4 {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.tramob4::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(/Trabajo-html-css/imagenes_historia/sergio\ barckground.jpeg);
+    background-size: cover;
+    background-position: center;
+    filter: blur(6px);
+    z-index: -1;
+    transform: scale(1.1);
+}
+
+/*header*/
+
+
+.headerb4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.headerb4__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+.containerb4__top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1e293b;
+    color: #f8fafc;
+    padding: 20px;
+    border: 2px solid #e5e7eb;
+    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.6);
+    border-bottom: 4px solid white;
+    margin-bottom: 30px;
+
+}
+
+
+.containerb4__titulo {
+    color: rgb(249, 231, 231);
+    font-family: "Turret Road", sans-serif;
+
+}
+
+/*body*/
+
+
+.mapab4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.mapab4__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.containerb4__imagen {
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid white;
+    transform-origin: center;
+    transition: transform 0.3s ease;
+
+}
+
+
+.containerb4__imagen:hover {
+    transform: translateY(-4px);
+    box-shadow:
+        0 0 25px rgba(0, 150, 255, 0.6),
+        inset 0 0 12px rgba(0, 150, 255, 0.25);
+    border-color: rgb(0, 150, 255);
+    transform: scale(1.1);
+    z-index: 10;
+}
+
+
+
+/*footer*/
+
+
+.footerb4__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    padding-bottom: 20px;
+    margin-bottom: 100px;
+
+}
+
+
+
+/* SERGIO PARTE CSS 5 ---------------------------------------------------------------------*/
+
+
+.linkb5__izquierda {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    background: #1e293b;
+    color: #f8fafc;
+    border: 2px solid #e5e7eb;
+    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.6);
+    padding: 5px;
+}
+
+
+
+.linkb5__derecha {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    background: #1e293b;
+    color: #f8fafc;
+    border: 2px solid #e5e7eb;
+    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.6);
+    padding: 5px;
+
+}
+
+
+.linkb5__derecha:hover {
+    transform: translateY(-4px);
+    box-shadow:
+        0 0 25px rgba(0, 150, 255, 0.6),
+        inset 0 0 12px rgba(0, 150, 255, 0.25);
+    border-color: rgb(0, 150, 255);
+}
+
+
+.linkb5__izquierda:hover {
+    transform: translateY(-4px);
+    box-shadow:
+        0 0 25px rgba(0, 150, 255, 0.6),
+        inset 0 0 12px rgba(0, 150, 255, 0.25);
+    border-color: rgb(0, 150, 255);
+}
+
+
+
+
+
+
+.tramob5 {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.tramob5::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(/imagenes_historia/background.jpeg);
+    background-image: url(/Trabajo-html-css/imagenes_historia/sergio\ background2.jpeg);
+    background-size: cover;
+    background-position: center;
+    filter: blur(2px);
+    z-index: -1;
+    transform: scale(1.1);
+}
+
+
+
+/*body*/
+
+
+
+.galeriab5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 110px;
+}
+
+
+.galeriab5__container__izq {
+    display: flex;
+}
+
+
+.galeriab5__container__cen {
+    display: flex;
+}
+
+
+.galeriab5__container__der {
+    display: flex;
+}
+
+
+.containerb5__imagen {
+    width: 300px;
+    height: 250px;
+    border: 1px solid white;
+
+}
+
+
+.galeriab5__2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+
+.galeriab5__2__container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 300px;
+    grid-template-areas: "a a b b";
+    gap: 50px;
+    padding: 20px;
+}
+
+
+.containerb5__box {
+    grid-area: a;
+    border: 1px solid white;
+
+}
+
+
+.containerb5__box__2 {
+    grid-area: b;
+    border: 1px solid white;
+
+}
+
+
+
+.boxb5__imagen {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+
+/*footer*/
+
+
+.footerb5__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+
+
+/* SERGIO PARTE CSS 6 ---------------------------------------------------------------------*/
+
+
+
+.linkb6__izquierda {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    background: #1e293b;
+    color: #f8fafc;
+    border: 2px solid #e5e7eb;
+    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.6);
+    padding: 5px;
+}
+
+
+
+.linkb6__derecha {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    background: #1e293b;
+    color: #f8fafc;
+    border: 2px solid #e5e7eb;
+    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.6);
+    padding: 5px;
+
+}
+
+
+.linkb6__derecha:hover {
+    transform: translateY(-4px);
+    box-shadow:
+        0 0 25px rgba(0, 150, 255, 0.6),
+        inset 0 0 12px rgba(0, 150, 255, 0.25);
+    border-color: rgb(0, 150, 255);
+}
+
+
+.linkb6__izquierda:hover {
+    transform: translateY(-4px);
+    box-shadow:
+        0 0 25px rgba(0, 150, 255, 0.6),
+        inset 0 0 12px rgba(0, 150, 255, 0.25);
+    border-color: rgb(0, 150, 255);
+}
+
+
+
+
+
+.tramob6 {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.tramob6::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(/imagenes_historia/background__planeta.jpeg);
+    background-image: url(/Trabajo-html-css/imagenes_historia/sergio\ barckground.jpeg);
+    background-size: cover;
+    background-position: center;
+    filter: blur(6px);
+    z-index: -1;
+    transform: scale(1.1);
+
+}
+
+
+
+
+.galeria2b6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.galeriab6__container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.boxb6__imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1300px;
+    height: 350px;
+    object-fit: cover;
+    margin-top: 20px;
+    border: 2px solid #e5e7eb;
+
+}
+
+
+.mensajeb6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+
+.mensajeb6__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1e293b;
+    color: #f8fafc;
+    padding: 20px;
+    border: 2px solid #e5e7eb;
+    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.6);
+    border-bottom: 4px solid white;
+    height: 220px;
+}
+
+
+.containerb6__texto {
+    color: rgb(215, 130, 3);
+    font-family: "Turret Road", sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+
+/*footer*/
+
+
+.footerb6__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    padding-bottom: 20px;
+
+
+}
+
+
+
+.linkb6__izquierda {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    background: #1e293b;
+    color: #f8fafc;
+    border: 2px solid #e5e7eb;
+    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.6);
+    padding: 5px;
+}
+
+
+
+.linkb6__derecha {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    background: #1e293b;
+    color: #f8fafc;
+    border: 2px solid #e5e7eb;
+    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.6);
+    padding: 5px;
+
+}
+
+
+.linkb6__derecha:hover {
+    transform: translateY(-4px);
+    box-shadow:
+        0 0 25px rgba(0, 150, 255, 0.6),
+        inset 0 0 12px rgba(0, 150, 255, 0.25);
+    border-color: rgb(0, 150, 255);
+}
+
+
+.linkb6__izquierda:hover {
+    transform: translateY(-4px);
+    box-shadow:
+        0 0 25px rgba(0, 150, 255, 0.6),
+        inset 0 0 12px rgba(0, 150, 255, 0.25);
+    border-color: rgb(0, 150, 255);
+}
+
+
+
+/* SERGIO PARTE CSS 7 ---------------------------------------------------------------------*/
+
+.tramob7 {
+    margin: 0;
+    background-image: url("/imagenes_historia/imagen\ base\ naval.png");
+    background-image: url("/Trabajo-html-css/imagenes_historia/sergio__background__5.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+
+}
+
+
+/*header*/
+
+
+.headerb7__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+
+.headerb7__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1e293b;
+    color: #f8fafc;
+    padding: 20px;
+    border: 2px solid #e5e7eb;
+    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.6);
+    border-bottom: 4px solid white;
+
+}
+
+
+.headerb7__texto {
+    color: white;
+    font-family: "Turret Road", sans-serif;
+    font-size: 18px;
+
+}
+
+/*body*/
+
+
+.bodyb7__box {
+    margin-left: 645px;
+    margin-top: 80px;
+    width: 510px;
+    height: 380px;
+    background-color: rgb(0, 0, 0);
+    padding: 15px;
+    border-radius: 10%;
+    border: 2px solid #e5e7eb;
+
+}
+
+
+.bodyb7__container__texto {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.boxb7__texto {
+    color: rgb(181, 0, 0);
+    font-family: "Turret Road", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+.bodyb7__container__botones {
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    margin-top: 70px;
+
+}
+
+
+
+
+
+.containerb7__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1e293b;
+    color: #f8fafc;
+    padding: 20px;
+    border: 2px solid #e5e7eb;
+    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.6);
+    border-bottom: 4px solid white;
+    text-decoration: none;
+
+}
+
+
+.containerb7__link:hover {
+    transform: translateY(-4px);
+    box-shadow:
+        0 0 25px rgba(0, 150, 255, 0.6),
+        inset 0 0 12px rgba(0, 150, 255, 0.25);
+    border-color: rgb(0, 150, 255);
+}
+
+
+
+/* es mi pie aitor ya se acabo este sufrimiento :) */
