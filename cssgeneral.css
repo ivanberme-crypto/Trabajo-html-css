@@ -749,10 +749,10 @@
 }
 
 .caja2 {
-    margin-left: 730px;
-    margin-top: 140px;
-    width: 570px;
-    height: 390px;
+    margin-left: 650px;
+    margin-top: 80px;
+    width: 500px;
+    height: 350px;
     background-color: rgb(0, 7, 105);
     color: white;
     padding: 15px;
@@ -779,18 +779,18 @@
     width: 150px;
     height: 90px;
     margin-left: 30px;
-    background: #01367c;
+    background: #ffffff;
     padding: 15px 30px;
     font-size: 18px;
     border: none;
     border-radius: 10px;
     cursor: pointer;
-    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.4);
+    box-shadow: 0 4px 10px rgba(243, 237, 237, 0.933);
     transition: 0.3s ease;
 }
 
 .boton1:hover {
-    background: #003a7a;
+    background: #86baf2;
 }
 
 .boton1:active {
@@ -1019,7 +1019,6 @@
 
 /* JP PARTE CSS ---------------------------------------------------------------------*/
 
-/* Fuente personalizada */
 @font-face {
     font-family: "Windows95";
     src: url("jean/html y css/tipografiaIntro/W95FA.otf") format("opentype");
@@ -1057,10 +1056,8 @@
     background-color: #000000;
 }
 
-/* Ventana principal */
 .VentanaPrincipal {
     position: absolute;
-    /* permite moverla */
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -1081,7 +1078,6 @@
 
 .VentanaPrincipal {
     position: absolute;
-    /* permite moverla */
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -1100,17 +1096,14 @@
     box-sizing: border-box;
 }
 
-/* Barra de título */
 .VentanaPrincipal__header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* Empuja el h2 a la izquierda y el botón a la derecha */
     width: calc(100% - 4px);
     height: 30px;
     background-color: #0827f5;
     padding: 0 5px;
-    /* margen interno horizontal opcional */
     box-sizing: border-box;
     box-shadow: inset 1px 1px 0 #ffffff, inset -1px -1px 0 #000080;
     cursor: grab;
@@ -1138,7 +1131,6 @@
     font-family: "Windows95", sans-serif;
     font-size: 14px;
     height: 25px;
-    /* un poco menor que la barra */
     width: 25px;
     margin-right: 0px;
     padding-left: 1px;
@@ -1146,14 +1138,12 @@
     box-sizing: border-box;
     cursor: pointer;
 
-    /* Borde 3D estilo Windows 95 */
     border-top: 2px solid white;
     border-left: 2px solid white;
     border-bottom: 2px solid #4d4d4d;
     border-right: 2px solid #4d4d4d;
 
     user-select: none;
-    /* evita que el texto se seleccione al hacer click */
 }
 
 .VentanaPrincipal__boton-cerrar p {
@@ -1161,7 +1151,6 @@
     font-weight: bold;
 }
 
-/* Efecto presionado al hacer click */
 .VentanaPrincipal__boton-cerrar:active {
     border-top: 2px solid #4d4d4d;
     border-left: 2px solid #4d4d4d;
@@ -1178,11 +1167,9 @@
     text-align: left;
 }
 
-/* Contenido con borde 3D */
 .VentanaPrincipal__Contenido {
     display: flex;
     flex-direction: column;
-    /* apila CMD y botón verticalmente */
     justify-content: flex-start;
     /* pega al top */
     align-items: flex-start;
