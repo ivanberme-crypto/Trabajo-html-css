@@ -11,19 +11,19 @@
 <body class="bodyjp">
 
     <div class="escritorio">
-        <div class="escritorio__accesoDirecto" onclick="window.location.href='PestañaIntro.html'">
+        <a href="PestañaIntro.html" class="escritorio__accesoDirecto no-style-link">
             <img src="/Trabajo-html-css/imagenes_historia/pngwing.com.png" alt="Icono Mi PC">
             <p>CMD</p>
-        </div>
+        </a>
 
-        <div class="escritorio__accesoDirecto-exp" onclick="window.location.href='PestañaIntro.html'">
+        <a href="PestañaIntro.html" class="escritorio__accesoDirecto-exp no-style-link">
             <img src="https://win98icons.alexmeub.com/icons/png/directory_open_cool-0.png"
                 alt="">
             <p>Explorador<br>de Archivos</p>
-        </div>
+        </a>
     </div>
 
-    <div class="VentanaPrincipal" id="ventana" style="z-index: 100;">
+    <div class="VentanaPrincipal z-index-100" id="ventana">
         <div class="VentanaPrincipal__header" id="header">
             <h2>CMD</h2>
             <div class="VentanaPrincipal__boton-cerrar" onclick="this.parentElement.parentElement.style.display='none'">
@@ -47,7 +47,7 @@
     </div>
 
 
-    <div class="VentanaPrincipal" id="ventana-exp" style="z-index: 101;">
+    <div class="VentanaPrincipal z-index-101" id="ventana-exp">
         <div class="VentanaPrincipal__header" id="header-exp">
             <div class="VentanaPrincipal__header-contenido">
                 <img src="https://win98icons.alexmeub.com/icons/png/directory_closed-4.png" alt="">
@@ -58,7 +58,7 @@
             </div>
         </div>
 
-        <div class="VentanaPrincipal__Contenido-exp" style="padding: 2px;">
+        <div class="VentanaPrincipal__Contenido-exp padding-2px">
             <div class="Explorador__Menu">
                 <span><u>F</u>ile</span>
                 <span><u>E</u>dit</span>
@@ -93,15 +93,15 @@
 
             <div class="Explorador__AreaBlanca">
 
-                <div class="Explorador__Icono seleccionado" onclick="window.location.href='Pestaña5Intro.html'">
+                <a href="Pestaña5Intro.html" class="Explorador__Icono seleccionado no-style-link">
                     <img src="https://win98icons.alexmeub.com/icons/png/executable_script-1.png" alt="Carpeta">
                     <p>Archivos<br>Actuales</p>
-                </div>
+                </a>
 
-                <div class="Explorador__Icono" onclick="window.location.href='../../sergio/tramoB.html'">
+                <a href="../../sergio/tramoB.html" class="Explorador__Icono no-style-link">
                     <img src="https://win98icons.alexmeub.com/icons/png/executable_script-1.png" alt="Carpeta">
                     <p>Escenario Ficticio</p>
-                </div>
+                </a>
 
                 <div class="Explorador__Icono">
                     <img src="https://win98icons.alexmeub.com/icons/png/recycle_bin_empty-4.png" alt="Papelera">
@@ -128,10 +128,10 @@
     </div>
 
     <div class="Barradetareas">
-        <div class="Barradetareas__boton-inicio" onclick="window.location.href='EscritorioIntro.html'">
+        <a href="EscritorioIntro.html" class="Barradetareas__boton-inicio no-style-link">
             <img src="/Trabajo-html-css/imagenes_historia/klipartz.com.png" alt="">
             <p>Inicio</p>
-        </div>
+        </a>
         <div class="Barradetareas__hora" id="reloj">00:00:00</div>
     </div>
 
