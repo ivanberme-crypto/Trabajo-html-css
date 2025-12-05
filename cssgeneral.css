@@ -1748,8 +1748,9 @@
 
 
 
-/* SERGIO PARTE CSS 1 ---------------------------------------------------------------------*/
+/* SERGIO PARTE CSS (tramoB)---------------------------------------------------------------------*/
 
+/*clase body*/
 
 .tramob1 {
     margin: 0;
@@ -1761,6 +1762,7 @@
 
 }
 
+/*clase body*/
 
 
 /*header*/
@@ -1792,6 +1794,8 @@
     font-size: 18px;
 
 }
+
+/*header*/
 
 /*body*/
 
@@ -1859,12 +1863,13 @@
     border-color: rgb(0, 150, 255);
 }
 
+/*body*/
 
 
 
+/* SERGIO PARTE CSS tramoB2 ---------------------------------------------------------------------*/
 
-/* SERGIO PARTE CSS 2 ---------------------------------------------------------------------*/
-
+/*clase body*/
 
 .tramob2 {
     margin: 0;
@@ -1885,6 +1890,8 @@
     z-index: -1;
     transform: scale(1.1);
 }
+
+/*clase body*/
 
 /*header*/
 
@@ -1918,6 +1925,10 @@
     font-family: "Turret Road", sans-serif;
 
 }
+
+/*header*/
+
+/*body*/
 
 .mensajeb2 {
     display: flex;
@@ -1968,6 +1979,8 @@
     border-color: rgb(0, 150, 255);
 }
 
+/*body*/
+
 /*footer*/
 
 .footerb2__container {
@@ -2023,180 +2036,13 @@
     border-color: rgb(0, 150, 255);
 }
 
-
-
-/* SERGIO PARTE CSS 2 ---------------------------------------------------------------------*/
-
-
-.tramob2 {
-    margin: 0;
-    padding: 0;
-}
-
-.tramob2::before {
-    content: "";
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url(/Trabajo-html-css/imagenes_historia/sergio_background__supermercado.jpg);
-    background-size: cover;
-    background-position: center;
-    filter: blur(6px);
-    z-index: -1;
-    transform: scale(1.1);
-}
-
-/*header*/
-
-
-.headerb2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 15px;
-}
-
-
-.headerb2__top {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.topb2__container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #1e293b;
-    color: rgb(255, 255, 255);
-    padding: 20px;
-    border: 2px solid #e5e7eb;
-    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.6);
-    border-bottom: 4px solid white;
-}
-
-
-.containerb2__titulo {
-    color: rgb(255, 255, 255);
-    font-family: "Turret Road", sans-serif;
-
-}
-
-
-.mensajeb2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-}
-
-
-.mensajeb2__container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #1e293b;
-    color: rgb(255, 255, 255);
-    padding: 20px;
-    border: 2px solid #e5e7eb;
-    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.6);
-    border-bottom: 4px solid white;
-    padding: 20px;
-    width: 80%;
-    margin-top: 80px;
-}
-
-
-
-.containerb2__texto {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    font-family: "Turret Road", sans-serif;
-    font-size: 24px;
-    font-weight: 400;
-    color: rgb(255, 255, 255);
-}
-
-
-
-.containerb2__texto--color {
-    color: rgb(181, 0, 0);
-    font-family: "Turret Road", sans-serif;
-    font-size: 30px;
-    font-weight: 600;
-}
-
-
 /*footer*/
 
 
 
-.footerb2__container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
-    margin-top: 120px;
+/* SERGIO PARTE CSS tramoB3 ---------------------------------------------------------------------*/
 
-
-}
-
-
-
-.linkb2__izquierda {
-    height: 50px;
-    width: 50px;
-    object-fit: cover;
-    border-radius: 50%;
-    background: #1e293b;
-    color: #f8fafc;
-    border: 2px solid #e5e7eb;
-    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.6);
-    padding: 5px;
-}
-
-
-
-.linkb2__derecha {
-    height: 50px;
-    width: 50px;
-    object-fit: cover;
-    border-radius: 50%;
-    background: #1e293b;
-    color: #f8fafc;
-    border: 2px solid #e5e7eb;
-    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.6);
-    padding: 5px;
-
-}
-
-
-.linkb2__derecha:hover {
-    transform: translateY(-4px);
-    box-shadow:
-        0 0 25px rgba(0, 150, 255, 0.6),
-        inset 0 0 12px rgba(0, 150, 255, 0.25);
-    border-color: rgb(0, 150, 255);
-}
-
-
-.linkb2__izquierda:hover {
-    transform: translateY(-4px);
-    box-shadow:
-        0 0 25px rgba(0, 150, 255, 0.6),
-        inset 0 0 12px rgba(0, 150, 255, 0.25);
-    border-color: rgb(0, 150, 255);
-}
-
-
-/* SERGIO PARTE CSS 3 ---------------------------------------------------------------------*/
-
-
+/*clase body*/
 
 .tramob3 {
     margin: 0;
@@ -2218,6 +2064,8 @@
     z-index: -1;
     transform: scale(1.1);
 }
+
+/*clase body*/
 
 
 /*body*/
@@ -2489,9 +2337,9 @@
 
 
 
-/* SERGIO PARTE CSS 4 ---------------------------------------------------------------------*/
+/* SERGIO PARTE CSS tramoB4 ---------------------------------------------------------------------*/
 
-
+/*clase body*/
 
 .tramob4 {
     margin: 0;
@@ -2513,6 +2361,8 @@
     z-index: -1;
     transform: scale(1.1);
 }
+
+/*clase body*/
 
 /*header*/
 
@@ -2553,6 +2403,8 @@
 
 }
 
+/*header*/
+
 /*body*/
 
 
@@ -2592,6 +2444,8 @@
     z-index: 10;
 }
 
+/*body*/
+
 
 
 /*footer*/
@@ -2607,60 +2461,13 @@
 
 }
 
-
-
-/* SERGIO PARTE CSS 5 ---------------------------------------------------------------------*/
-
-
-.linkb5__izquierda {
-    height: 50px;
-    width: 50px;
-    object-fit: cover;
-    border-radius: 50%;
-    background: #1e293b;
-    color: #f8fafc;
-    border: 2px solid #e5e7eb;
-    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.6);
-    padding: 5px;
-}
+/*footer*/
 
 
 
-.linkb5__derecha {
-    height: 50px;
-    width: 50px;
-    object-fit: cover;
-    border-radius: 50%;
-    background: #1e293b;
-    color: #f8fafc;
-    border: 2px solid #e5e7eb;
-    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.6);
-    padding: 5px;
+/* SERGIO PARTE CSS tramoB5 ---------------------------------------------------------------------*/
 
-}
-
-
-.linkb5__derecha:hover {
-    transform: translateY(-4px);
-    box-shadow:
-        0 0 25px rgba(0, 150, 255, 0.6),
-        inset 0 0 12px rgba(0, 150, 255, 0.25);
-    border-color: rgb(0, 150, 255);
-}
-
-
-.linkb5__izquierda:hover {
-    transform: translateY(-4px);
-    box-shadow:
-        0 0 25px rgba(0, 150, 255, 0.6),
-        inset 0 0 12px rgba(0, 150, 255, 0.25);
-    border-color: rgb(0, 150, 255);
-}
-
-
-
-
-
+/*clase body*/
 
 .tramob5 {
     margin: 0;
@@ -2684,10 +2491,10 @@
     transform: scale(1.1);
 }
 
+/*clase body*/
 
 
 /*header*/
-
 
 
 .galeriab5 {
@@ -2755,8 +2562,6 @@
     justify-content: center;
     align-items: center;
 
-
-
 }
 
 
@@ -2822,58 +2627,10 @@
 
 
 
-/* SERGIO PARTE CSS 6 ---------------------------------------------------------------------*/
+/* SERGIO PARTE CSS tramoB6 ---------------------------------------------------------------------*/
 
 
-
-.linkb6__izquierda {
-    height: 50px;
-    width: 50px;
-    object-fit: cover;
-    border-radius: 50%;
-    background: #1e293b;
-    color: #f8fafc;
-    border: 2px solid #e5e7eb;
-    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.6);
-    padding: 5px;
-}
-
-
-
-.linkb6__derecha {
-    height: 50px;
-    width: 50px;
-    object-fit: cover;
-    border-radius: 50%;
-    background: #1e293b;
-    color: #f8fafc;
-    border: 2px solid #e5e7eb;
-    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.6);
-    padding: 5px;
-
-}
-
-
-.linkb6__derecha:hover {
-    transform: translateY(-4px);
-    box-shadow:
-        0 0 25px rgba(0, 150, 255, 0.6),
-        inset 0 0 12px rgba(0, 150, 255, 0.25);
-    border-color: rgb(0, 150, 255);
-}
-
-
-.linkb6__izquierda:hover {
-    transform: translateY(-4px);
-    box-shadow:
-        0 0 25px rgba(0, 150, 255, 0.6),
-        inset 0 0 12px rgba(0, 150, 255, 0.25);
-    border-color: rgb(0, 150, 255);
-}
-
-
-
-
+/*clase body*/
 
 .tramob6 {
     margin: 0;
@@ -2898,8 +2655,9 @@
 
 }
 
+/*clase body*/
 
-
+/*header*/
 
 .galeria2b6 {
     display: flex;
@@ -2937,6 +2695,9 @@
 
 }
 
+/*header*/
+
+/*body*/
 
 .mensajeb6 {
     display: flex;
@@ -2976,6 +2737,8 @@
     font-weight: 500;
 }
 
+/*body*/
+
 
 /*footer*/
 
@@ -2990,56 +2753,10 @@
 
 }
 
+/* SERGIO PARTE CSS tramoB7 ---------------------------------------------------------------------*/
 
 
-.linkb6__izquierda {
-    height: 50px;
-    width: 50px;
-    object-fit: cover;
-    border-radius: 50%;
-    background: #1e293b;
-    color: #f8fafc;
-    border: 2px solid #e5e7eb;
-    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.6);
-    padding: 5px;
-}
-
-
-
-.linkb6__derecha {
-    height: 50px;
-    width: 50px;
-    object-fit: cover;
-    border-radius: 50%;
-    background: #1e293b;
-    color: #f8fafc;
-    border: 2px solid #e5e7eb;
-    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.6);
-    padding: 5px;
-
-}
-
-
-.linkb6__derecha:hover {
-    transform: translateY(-4px);
-    box-shadow:
-        0 0 25px rgba(0, 150, 255, 0.6),
-        inset 0 0 12px rgba(0, 150, 255, 0.25);
-    border-color: rgb(0, 150, 255);
-}
-
-
-.linkb6__izquierda:hover {
-    transform: translateY(-4px);
-    box-shadow:
-        0 0 25px rgba(0, 150, 255, 0.6),
-        inset 0 0 12px rgba(0, 150, 255, 0.25);
-    border-color: rgb(0, 150, 255);
-}
-
-
-
-/* SERGIO PARTE CSS 7 ---------------------------------------------------------------------*/
+/*clase body*/
 
 .tramob7 {
     margin: 0;
@@ -3052,6 +2769,7 @@
 
 }
 
+/*clase body*/
 
 /*header*/
 
@@ -3085,6 +2803,8 @@
     font-size: 18px;
 
 }
+
+/*header*/
 
 /*body*/
 
@@ -3126,10 +2846,6 @@
 
 }
 
-
-
-
-
 .containerb7__link {
     display: flex;
     justify-content: center;
@@ -3152,7 +2868,5 @@
         inset 0 0 12px rgba(0, 150, 255, 0.25);
     border-color: rgb(0, 150, 255);
 }
-
-
 
 /* es mi pie aitor ya se acabo este sufrimiento :) */
