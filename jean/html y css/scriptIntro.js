@@ -16,9 +16,17 @@ function makeWindowDraggable(windowId, headerId) {
         const savedX = localStorage.getItem(storageKeyX);
         const savedY = localStorage.getItem(storageKeyY);
 
+        // Elimina el transform CSS para evitar conflictos con posicionamiento JS
+        ventana.style.transform = 'none';
+
         if (savedX !== null && savedY !== null) {
             ventana.style.left = savedX;
             ventana.style.top = savedY;
+        } else {
+            // Si no hay posición guardada, centra la ventana manualmente
+            const rect = ventana.getBoundingClientRect();
+            ventana.style.left = `${(window.innerWidth - rect.width) / 2}px`;
+            ventana.style.top = `${(window.innerHeight - rect.height) / 2}px`;
         }
 
         // Hace visible la ventana después de colocarla para evitar parpadeos
@@ -29,7 +37,7 @@ function makeWindowDraggable(windowId, headerId) {
             offsetX = e.clientX - ventana.offsetLeft;
             offsetY = e.clientY - ventana.offsetTop;
             document.body.style.cursor = "grabbing";
-            
+
             // Pone la ventana clickada por delante de las demás
             document.querySelectorAll('.VentanaPrincipal').forEach(w => w.style.zIndex = '100');
             ventana.style.zIndex = '101';

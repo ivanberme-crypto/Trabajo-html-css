@@ -1067,6 +1067,7 @@
     width: 700px;
     height: 500px;
     background-color: #c3c3c3;
+    visibility: hidden;
 
     border-top: 2px solid white;
     border-left: 2px solid white;
@@ -1076,25 +1077,6 @@
     box-sizing: border-box;
 }
 
-.VentanaPrincipal {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 700px;
-    height: 500px;
-    background-color: #c3c3c3;
-
-    border-top: 2px solid white;
-    border-left: 2px solid white;
-    border-bottom: 2px solid #4d4d4d;
-    border-right: 2px solid #4d4d4d;
-
-    box-sizing: border-box;
-}
 
 .VentanaPrincipal__header {
     display: flex;
