@@ -1650,14 +1650,17 @@
 .z-index-100 {
     z-index: 100;
 }
+
 .z-index-101 {
     z-index: 101;
 }
+
 .padding-2px {
     padding: 2px;
 }
 
-a.escritorio__accesoDirecto, a.escritorio__accesoDirecto-exp {
+a.escritorio__accesoDirecto,
+a.escritorio__accesoDirecto-exp {
     color: #ffffff;
 }
 
@@ -1671,6 +1674,12 @@ a.escritorio__accesoDirecto, a.escritorio__accesoDirecto-exp {
     50% {
         opacity: 0;
     }
+}
+
+.ruta {
+    text-decoration: none;
+    color: #A8A8A8;
+
 }
 
 
@@ -2796,8 +2805,3 @@ a.escritorio__accesoDirecto, a.escritorio__accesoDirecto-exp {
         inset 0 0 12px rgba(0, 150, 255, 0.25);
     border-color: rgb(0, 150, 255);
 }
-
-
-
-
-
